@@ -1,0 +1,25 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/fonts/inter-var-latin.woff2",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, immutable, max-age=31536000"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/services/learning-education",
+      "destination": "/services/instructional-design-and-elearning"
+    },
+    {
+      "source": "/services/it-engineering",
+      "destination": "/services/software-data-engineering"
+    }
+  ]
+}

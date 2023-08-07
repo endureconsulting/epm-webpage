@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "next",
+    "plugin:unicorn/recommended",
+    "plugin:promise/recommended"
+  ],
+  "plugins": ["unicorn", "promise"],
+  "rules": {
+    "unicorn/filename-case": "off",
+    "unicorn/prefer-node-protocol": "off",
+    "unicorn/prevent-abbreviations": [
+      "error",
+      {
+        "replacements": {
+          "props": false,
+          "ref": false
+        }
+      }
+    ]
+  }
+}
