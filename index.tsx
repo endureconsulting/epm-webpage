@@ -3,7 +3,6 @@ import { Container } from "@/components/container";
 import { Layout } from "@/components/layout";
 import { XlLogoBackground } from "@/components/xl-logo-background";
 import { Header } from "@/components/header";
-import { VideoCta } from "@/components/video-cta";
 import eliteTalentSplit from "@/public/elite-talent-split.jpg";
 
 // FIXME: This page needs the latest WhitespaceWrapper and Prose formatting.
@@ -60,7 +59,6 @@ export default function HomePage() {
               />
             </div>
           </div>
-          <VideoCta />
         </XlLogoBackground>
       </Layout>
     </Container>
